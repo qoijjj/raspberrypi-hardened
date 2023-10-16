@@ -40,7 +40,7 @@ echo " init_on_alloc=1 init_on_free=1 slab_nomerge page_alloc.shuffle=1 randomiz
 echo "Building hardened_malloc..."
 apt-get install -y make gcc g++
 rm -r hardened_malloc-12
-git clone https://github.com/GrapheneOS/hardened_malloc/archive/refs/tags/12.tar.gz
+wget https://github.com/GrapheneOS/hardened_malloc/archive/refs/tags/12.tar.gz
 tar -xvf 12.tar.gz
 cd hardened_malloc-12
 make
