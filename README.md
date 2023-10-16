@@ -1,8 +1,8 @@
-# debian-hardened
+# raspberrypi-hardened
 
 ## Notice
 
-- This script only supports Debian 12 until further notice.
+- This script only supports RaspberryPiOS 12 until further notice.
 - This script is in *alpha*, **use at your own risk**.
 
 ## What
