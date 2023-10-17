@@ -38,4 +38,7 @@ cp ./config/50-unattendedupgrades.conf /etc/apt/apt.conf.d/
 echo "Setting hardening kernel parameters..."
 echo " init_on_alloc=1 init_on_free=1 slab_nomerge page_alloc.shuffle=1 randomize_kstack_offset=on vsyscall=none debugfs=off lockdown=confidentiality random.trust_cpu=off random.trust_bootloader=off nvme_core.default_ps_max_latency_us=0 mitigations=auto,nosmt" >> /boot/cmdline.txt
 
+echo "Setting sudoers timeout..."
+echo "Defaults        timestamp_timeout=0" >> /etc/sudoers
+
 echo "Complete. Reboot your system for changes to take effect."
