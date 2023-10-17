@@ -43,11 +43,9 @@ rm -r hardened_malloc-12
 wget https://github.com/GrapheneOS/hardened_malloc/archive/refs/tags/12.tar.gz
 tar -xvf 12.tar.gz
 cd hardened_malloc-12
-make
 make VARIANT=light
 
 echo "Installing hardened_malloc"
-cp out/libhardened_malloc.so /usr/local/lib/libhardened_malloc.so
 cp out/libhardened_malloc-light.so /usr/local/lib/libhardened_malloc-light.so
 cd ..
 cp -f ./config/ld.so.preload /etc/
