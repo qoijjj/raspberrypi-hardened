@@ -46,7 +46,7 @@ cd hardened_malloc-12
 make VARIANT=light
 
 echo "Installing hardened_malloc"
-cp out/libhardened_malloc-light.so /usr/local/lib/libhardened_malloc-light.so
+cp out-light/libhardened_malloc-light.so /usr/local/lib/libhardened_malloc-light.so
 cd ..
 cp -f ./config/ld.so.preload /etc/
 
