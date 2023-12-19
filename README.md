@@ -7,7 +7,7 @@
 
 ## What
 
-This is a script that hardens the default fedora installation significantly using the following modifications:
+This is a script that hardens the default raspberrypios installation significantly using the following modifications:
 
 - Setting numerous hardened sysctl values (Inspired by but not the same as Kicksecure's)
 - Disabling coredumps in limits.conf
