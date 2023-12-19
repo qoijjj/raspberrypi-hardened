@@ -15,7 +15,6 @@ This is a script that hardens the default fedora installation significantly usin
 - Setting more restrictive file permissions (Based on recommendations from [lynis](https://cisofy.com/lynis/))
 - Installing and configuring unattended-upgrades and chkrootkit
 - Sets numerous hardening kernel parameters (Inspired by [Madaidan's Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html))
-- Installs and enables [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc) globally
 
 
 ## How
